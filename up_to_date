@@ -13,3 +13,4 @@ git log to see log of commit
 git branch to check the current branch you are on
 git checkout -b to create a breach branch and switch to it
 git show HEAD to see the head logs
+git git add filename
