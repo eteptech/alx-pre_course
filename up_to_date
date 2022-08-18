@@ -1,0 +1,15 @@
+git init
+create a git hub account
+create a repository
+git config --global user.email <email address>
+git config --global user.name <your name>
+git clone {token from github}@github.com/<your user>/your repo name>.git
+git add .
+git commit -m "Massage to be commited"
+git push 
+git push orgin <branch you want to push>
+git status to check staged and tracked git files
+git log to see log of commit 
+git branch to check the current branch you are on
+git checkout -b to create a breach branch and switch to it
+git show HEAD to see the head logs
