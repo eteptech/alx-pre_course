@@ -1,16 +1,11 @@
-git init
-create a git hub account
-create a repository
-git config --global user.email <email address>
-git config --global user.name <your name>
-git clone {token from github}@github.com/<your user>/your repo name>.git
+git clone https://{YOUR_PERSONAL_TOKEN}@github.com/{YOUR_USERNAME}/alx-pre_course.git
+cd alx-pre_course/
+touch README.md
+echo 'My first readme' > README.md 
+cat README.md
+git config --global user.email "you@example.com"
+git config --global user.name "Your Name"
 git add .
-git commit -m "Massage to be commited"
-git push 
-git push orgin <branch you want to push>
-git status to check staged and tracked git files
-git log to see log of commit 
-git branch to check the current branch you are on
-git checkout -b to create a breach branch and switch to it
-git show HEAD to see the head logs
-git git add filename
+git commit -m 'My first commit'
+git push
+
