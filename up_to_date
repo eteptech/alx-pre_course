@@ -8,4 +8,8 @@ git config --global user.name "Your Name"
 git add .
 git commit -m 'My first commit'
 git push
+git pull
+git push
+git checkout 
+git branch
 
